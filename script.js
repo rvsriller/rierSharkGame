@@ -74,7 +74,16 @@ function startGame(){
     if(direction == "up") snakeY -= box;
     if(direction == "down") snakeY += box;
 
-    snake.pop(); //remove last box of snake body
+    //Increase or decrease snake body length and insert food in a different position
+    if(snakeX != food.x || snakeY != food.y){
+        snake.pop(); //remove last box of snake body
+    }else{
+        //Setting random position
+        food.x = Math.floor( Math.random() * 15 + 1) * box; 
+        food.y =  Math.floor( Math.random() * 15 + 1) * box;
+    }
+
+    
 
     //Create a new box 'head' to snake body
     let newHead = {
