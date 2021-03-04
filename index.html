@@ -14,9 +14,24 @@
 <body>
     <footer><h1 class="title"> SNAKE GAME! </h1></footer>
     <div><canvas id="snake" width="512" height="512"></canvas></div>
-    <div>
-        <button class="Start" onclick="start()">Start Game</button>
-        <button class="Reset" onclick="reset()">Reset Game</button></div>
+    <div class="buttons"> 
+        <button 
+            class="Start"
+            type="button" 
+            onclick="gameChange('start')"
+        > 
+            Start Game 
+        </button>
+
+        <button 
+            class="Reset"
+            type="button" 
+            onclick="gameChange('reset')"
+            disabled
+        > 
+            Reset Game 
+        </button>
+    </div>
     <!--<script src="script.js"></script>-->
     <br>
     <footer><span>made by Riller Vincci</span></footer>

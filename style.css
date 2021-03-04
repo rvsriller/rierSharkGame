@@ -24,8 +24,6 @@ Button {
   padding: 15px;
 }
 
-.Start {
-}
-
 .Reset {
+  disabled: true;
 }

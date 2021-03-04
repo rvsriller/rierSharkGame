@@ -105,4 +105,22 @@ function startGame(){
     snake.unshift(newHead);
 }
 
-let game = setInterval(startGame, 100);
+/*
+function resetGame(){
+    canvas = document.getElementById("snake");
+}
+*/
+    
+
+function gameChange(status){
+    
+    if(status == 'start'){
+        let game = setInterval(startGame, 100);
+    } else if(status == 'reset'){
+        let game = resetGame();
+    }
+    
+}
+
+
+
