@@ -1,2 +1,31 @@
 body {
+  height: 95vh;
+  width: 95;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title {
+  color: #997300;
+  font-family: "Stick", sans-serif;
+}
+
+.Buttons {
+}
+
+Button {
+  background-color: #ffdf80;
+  border: none;
+  padding: 15px;
+}
+
+.Start {
+}
+
+.Reset {
 }
