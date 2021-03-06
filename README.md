@@ -1,2 +1,2 @@
-# rierSharkGame
+# rierSnakeGame
 Loading description
