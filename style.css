@@ -7,6 +7,8 @@ body {
   align-items: center;
   flex-direction: column;
 
+  background-color: #f3f3f3;
+
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -19,4 +21,16 @@ Button {
   background-color: #ffdf80;
   border: none;
   padding: 15px;
+  font-family: "Stick", sans-serif;
+}
+
+.Start:hover {
+  background-color: #be9a2c;
+  border: none;
+  padding: 15px;
+  color: white;
+}
+
+canvas {
+  background-color: #ffdf80;
 }
