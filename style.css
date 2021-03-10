@@ -15,15 +15,8 @@ body {
   font-family: "Stick", sans-serif;
 }
 
-.Buttons {
-}
-
 Button {
   background-color: #ffdf80;
   border: none;
   padding: 15px;
-}
-
-.Reset {
-  disabled: true;
 }
